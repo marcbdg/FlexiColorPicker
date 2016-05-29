@@ -87,13 +87,13 @@
                              $('linearGradient', { id: 'gradient-black', x1: '0%', y1: '100%', x2: '0%', y2: '0%'},
                                [
                                    $('stop', { offset: '0%', 'stop-color': '#000000', 'stop-opacity': '1' }),
-                                   $('stop', { offset: '100%', 'stop-color': '#CC9A81', 'stop-opacity': '0' })
+                                   $('stop', { offset: '100%', 'stop-color': '#000000', 'stop-opacity': '0' })
                                ]
                               ),
                              $('linearGradient', { id: 'gradient-white', x1: '0%', y1: '100%', x2: '100%', y2: '100%'},
                                [
                                    $('stop', { offset: '0%', 'stop-color': '#FFFFFF', 'stop-opacity': '1' }),
-                                   $('stop', { offset: '100%', 'stop-color': '#CC9A81', 'stop-opacity': '0' })
+                                   $('stop', { offset: '100%', 'stop-color': '#FFFFFF', 'stop-opacity': '0' })
                                ]
                               )
                          ]
